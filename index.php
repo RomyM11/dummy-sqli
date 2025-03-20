@@ -46,9 +46,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <?php if (isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
     <form method="POST">
         <label>Username:</label>
-        <input type="text" name="username"><br><br>
+        <input type="text" name="username" required><br><br>
         <label>Password:</label>
-        <input type="password" name="password"><br><br>
+        <input type="password" name="password" required><br><br>
         <input type="submit" value="Login">
     </form>
 </body>
