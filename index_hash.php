@@ -62,10 +62,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login dengan password_verify</title>
+    <title>Login dengan password_verify+hash</title>
 </head>
 <body>
-    <h2>Login</h2>
+    <h2>Login dengan password_verify+hash</h2>
     <?php if (isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
     <form method="POST" action="">
         <label>Username:</label><br>
